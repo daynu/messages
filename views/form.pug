@@ -4,10 +4,10 @@ block content
     h1 ADD A NEW MESSAGE
     form(action = "/new", method = "POST")
         span: Author 
-        input(type = "text", name = "author", placeholder = "Name")
+        input(type = "text", name = "author", placeholder = "Name", required)
         
         span: Message 
-        input(type="text", name = "message", placeholder = "Message")
+        input(type="text", name = "message", placeholder = "Message", required)
         
 
         input(type = "submit", name = "addMessage")
