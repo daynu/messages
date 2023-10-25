@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= "MESSAGES"
+  p Welcome to Messages
+  ul
+    each val in messages
+      li
+        | <p><span class = "userName">#{val.user} </span>(#{val.added})</p>
+        p= val.text
+  a(href = "/new")
+    button Add a new message

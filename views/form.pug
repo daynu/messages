@@ -1,0 +1,13 @@
+extends layout 
+
+block content 
+    h1 ADD A NEW MESSAGE
+    form(action = "/new", method = "POST")
+        span: Author 
+        input(type = "text", name = "author", placeholder = "Name")
+        
+        span: Message 
+        input(type="text", name = "message", placeholder = "Message")
+        
+
+        input(type = "submit", name = "addMessage")
