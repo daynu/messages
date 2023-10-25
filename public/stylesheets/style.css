@@ -23,11 +23,73 @@ form
   display: flex;
   flex-direction: column;
   justify-self: center;
+  gap: 10px;
 }
 
 input
 {
   padding: 0;
   margin: 2px;
-  height: 20px;
+  height: 25px;
+  font-size: 15px;
+}
+
+button
+{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2%/4%;
+  height: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul
+{
+  list-style-type: none; 
+}
+
+p
+{
+  margin-left: 3px;
+}
+
+li
+{
+    border-left: 3px solid gray;
+    
+}
+
+hr
+{
+  width: 5px;
+  height: 100%;
+}
+
+a
+{
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+}
+
+input[type = "submit"]
+{
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  height: 25px;
+  border-radius: 6%/20%;
+  border: none;
+  cursor: pointer;
+  
+}
+
+input[name = "message"]
+{
+  height: 10vh;
 }
